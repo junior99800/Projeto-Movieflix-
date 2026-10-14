@@ -27,4 +27,6 @@ public class GenreController {
         List<GenreDTO> list = genreServices.findAll();
         return ResponseEntity.ok().body(list);
     }
+
+
 }
